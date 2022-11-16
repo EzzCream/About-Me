@@ -1,0 +1,17 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Wireframe -> https://whimsical.com/coderhouse-BGDhmhZazotQSA3g1UqfLi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch scss/styles.scss css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

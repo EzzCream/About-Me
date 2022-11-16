@@ -1,0 +1,269 @@
+main {
+	p {
+		color: rgb(78, 78, 78);
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	.portada {
+		color: white;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		height: 700px;
+		justify-content: center;
+		text-align: center;
+		margin-bottom: 60px;
+		background-color: black;
+		background-image: linear-gradient(
+				rgba(0, 0, 0, 0.5),
+				rgba(0, 0, 0, 0.5)
+			),
+			url('../../img/setup2.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		h1 {
+			font-size: 4rem;
+		}
+	}
+	.about-me {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 50px;
+		padding: 0 40px 60px 40px;
+		text-align: justify;
+		.cont-about {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+			flex-wrap: wrap;
+			img {
+				width: 250px;
+				box-shadow: 0 0 10px 10px rgb(204, 204, 204);
+				border-radius: 50%;
+				@media (max-width: 881px) {
+					margin-top: 20px;
+				}
+			}
+			div {
+				margin-left: 50px;
+				max-width: 600px;
+				@media (max-width: 881px) {
+					margin-left: 0;
+					margin-top: 20px;
+				}
+				div {
+					display: flex;
+					flex-direction: row;
+					margin-left: 0;
+					a {
+						.links {
+							border-radius: 0;
+							width: 30px;
+							box-shadow: 0 0 0 0;
+							margin: 0 10px 20px 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	.aptitudes {
+		padding-top: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		text-align: center;
+		background-color: rgb(247, 247, 247);
+		.tarjetas {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			div {
+				padding: 20px;
+				margin: 40px;
+				width: 400px;
+				height: 400px;
+				background-color: white;
+				img {
+					width: 200px;
+					height: 200px;
+				}
+			}
+		}
+	}
+	.estudios {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 60px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		text-align: center;
+		.secciones {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			.escuela {
+				padding: 20px;
+				margin: 40px;
+				width: 300px;
+				height: 400px;
+				@media (max-width: 881px) {
+					margin: 0;
+				}
+				img {
+					width: 150px;
+					height: 150px;
+				}
+				.coder {
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+	.experiencia {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 60px;
+		flex-direction: column;
+		flex-wrap: wrap;
+		text-align: center;
+		background-color: rgb(247, 247, 247);
+		.cont {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			.circle {
+				width: 300px;
+				height: 300px;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin: 30px;
+				margin-bottom: 30px;
+				background: white;
+			}
+		}
+	}
+	.portafolio {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 60px;
+		.cont-port {
+			width: 100%;
+			padding: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+			flex-wrap: wrap;
+			a {
+				text-decoration: none;
+				.card {
+					width: 250px;
+					height: 350px;
+					background: white;
+					padding: 0.4em;
+					margin: 30px;
+					border-radius: 6px;
+					&:hover {
+						transform: scale(1.03);
+						transition: 0.2s;
+						cursor: pointer;
+					}
+					.card-image {
+						background-color: rgb(236, 236, 236);
+						width: 100%;
+						height: 60%;
+						border-radius: 6px 6px 0 0;
+						&:hover {
+							cursor: pointer;
+						}
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+						}
+					}
+					.category {
+						text-transform: uppercase;
+						font-size: 0.7em;
+						font-weight: 600;
+						color: rgb(63, 121, 230);
+						padding: 10px 7px 0;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+					.heading {
+						font-weight: 600;
+						color: rgb(88, 87, 87);
+						padding: 7px;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+					.author {
+						color: gray;
+						font-weight: 400;
+						font-size: 11px;
+						padding-top: 20px;
+					}
+					.name {
+						font-weight: 600;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+	}
+	.contactame {
+		color: white;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 60px;
+		background-color: black;
+		background-image: linear-gradient(
+				rgba(0, 0, 0, 0.3),
+				rgba(0, 0, 0, 0.3)
+			),
+			url('../../img/footer.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.cont-form {
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+		@media (max-width: 881px) {
+			width: 100%;
+		}
+		a {
+			margin: auto;
+			width: 130px;
+		}
+	}
+}
