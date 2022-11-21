@@ -3,3 +3,27 @@
 	margin: 0;
 	padding: 0;
 }
+a:link,
+a:visited,
+a:active {
+	text-decoration: none;
+}
+.lk {
+	border-bottom: 2px solid transparent;
+	margin-right: 20px;
+	b {
+		color: rgb(54, 54, 54);
+		padding-bottom: 7px;
+	}
+	&:hover {
+		border-bottom: 2px solid purple;
+		transform: scale(1.03);
+		transition: 0.1s;
+	}
+}
+header {
+	nav {
+		backdrop-filter: blur(15px);
+		background: rgba(255, 255, 255, 0.616);
+	}
+}

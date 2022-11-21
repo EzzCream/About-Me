@@ -23,7 +23,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar fixed-top navbar-expand-lg bg-light">
+			<nav class="navbar fixed-top navbar-expand-lg">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#portada"
 						><img src="./img/EC.png" class="logo" alt="EzzCream"
@@ -44,23 +44,23 @@
 						id="navbarNavAltMarkup"
 					>
 						<div class="navbar-nav">
-							<a class="nav-link active" href="#aboutme"
-								>Acerca de mi</a
+							<a class="nav-link active lk" href="#aboutme"
+								><b>Acerca de mi</b></a
 							>
-							<a class="nav-link active" href="#aptitudes"
-								>Aptitudes</a
+							<a class="nav-link active lk" href="#aptitudes"
+								><b>Aptitudes</b></a
 							>
-							<a class="nav-link active" href="#estudios"
-								>Estudios</a
+							<a class="nav-link active lk" href="#estudios"
+								><b>Estudios</b></a
 							>
-							<a class="nav-link active" href="#experiencia"
-								>Experiencia</a
+							<a class="nav-link active lk" href="#experiencia"
+								><b>Experiencia</b></a
 							>
-							<a class="nav-link active" href="#portafolio"
-								>Portafolio</a
+							<a class="nav-link active lk" href="#portafolio"
+								><b>Portafolio</b></a
 							>
-							<a class="nav-link active" href="#contactame"
-								>Contactame</a
+							<a class="nav-link active lk" href="#contactame"
+								><b>Contactame</b></a
 							>
 						</div>
 					</div>
@@ -69,9 +69,9 @@
 		</header>
 		<main>
 			<section class="portada" id="portada">
-				<h1 class="">Full Stack Developer</h1>
-				<h2><i>Bienvenido a mi blog</i></h2>
-				<h2><i>Oscar Antonio Rodriguez Carmona</i></h2>
+				<h1 class="display-1"><b>Full Stack Developer</b></h1>
+				<h2><i>Hola, Soy</i></h2>
+				<h2 class="sub"><i>Oscar Antonio.</i></h2>
 				<a
 					class="btn btn-light btn-lg mt-3 p-3"
 					href="#aboutme"
@@ -79,11 +79,16 @@
 					><b>EMPECEMOS!</b></a
 				>
 			</section>
-			<section class="about-me" id="aboutme">
-				<h2 class=""><b>ACERCA DE MI</b></h2>
+			<div id="aboutme"></div>
+			<section class="about-me">
 				<section class="cont-about">
-					<img src="./img/fotoPerfil.jpg" alt="Oscar Antonio" />
+					<img
+						class="fotoPerfil"
+						src="./img/fotoPerfil2.png"
+						alt="Oscar Antonio"
+					/>
 					<div>
+						<h2 class="display-4"><b>ACERCA DE MI</b></h2>
 						<p class="mt-2">
 							Me gusta mucho la tecnología y todo lo que engloba,
 							tengo conocimientos en el desarrollo web (MERN),
@@ -125,9 +130,9 @@
 							/></a>
 						</div>
 						<iframe
-							title="Cancion favorita otro atardecer"
+							title="Cancion favorita"
 							style="border-radius: 12px"
-							src="https://open.spotify.com/embed/track/0E0DRHf5PfMeor0ZCwB3oT?utm_source=generator&theme=0"
+							src="https://open.spotify.com/embed/track/14OsvO7eecMfOIdRClquk9?utm_source=generator&theme=0"
 							width="100%"
 							height="152"
 							frameborder="0"
@@ -139,7 +144,7 @@
 				</section>
 			</section>
 			<section class="aptitudes" id="aptitudes">
-				<h2 class=""><b>APTITUDES</b></h2>
+				<h2 class="display-4"><b>APTITUDES</b></h2>
 				<section class="tarjetas">
 					<div>
 						<img src="./img/front.png" alt="frontend aptitudes" />
@@ -189,7 +194,7 @@
 				</section>
 			</section>
 			<section class="estudios" id="estudios">
-				<h2 class=""><b>ESTUDIOS</b></h2>
+				<h2 class="display-4"><b>ESTUDIOS</b></h2>
 				<section class="secciones">
 					<div class="escuela">
 						<img src="./img/IPN.jpg" alt="IPN CECyT7" />
@@ -253,7 +258,7 @@
 				</section>
 			</section>
 			<section class="experiencia" id="experiencia">
-				<h2 class=""><b>EXPERIENCIA</b></h2>
+				<h2 class="display-4"><b>EXPERIENCIA</b></h2>
 				<section class="cont">
 					<div class="circle">
 						<h3 class="display-6">P. Personal</h3>
@@ -301,13 +306,13 @@
 				</section>
 			</section>
 			<section class="portafolio" id="portafolio">
-				<h2 class=""><b>PORTAFOLIO</b></h2>
+				<h2 class="display-4"><b>PORTAFOLIO</b></h2>
 				<section class="cont-port">
 					<a
 						href="https://github.com/EzzCream/MichiStore"
 						target="_blank"
 					>
-						<div class="card">
+						<div class="cards">
 							<div class="card-image">
 								<img
 									src="./img/1.png"
@@ -328,7 +333,7 @@
 						href="https://github.com/EzzCream/Back-End"
 						target="_blank"
 					>
-						<div class="card">
+						<div class="cards">
 							<div class="card-image">
 								<img
 									src="./img/BackendP.png"
@@ -349,7 +354,7 @@
 						href="https://github.com/EzzCream/IS-Proyecto"
 						target="_blank"
 					>
-						<div class="card">
+						<div class="cards">
 							<div class="card-image">
 								<img
 									src="./img/IS.png"
@@ -370,7 +375,7 @@
 						href="https://github.com/EzzCream/Parque"
 						target="_blank"
 					>
-						<div class="card">
+						<div class="cards">
 							<div class="card-image">
 								<img
 									src="./img/DBD.png"
@@ -391,7 +396,7 @@
 						href="https://github.com/EzzCream/Desafios-CoderHouse"
 						target="_blank"
 					>
-						<div class="card">
+						<div class="cards">
 							<div class="card-image">
 								<img
 									src="./img/DCH.png"
@@ -412,7 +417,7 @@
 						href="https://github.com/EzzCream/Programacion-orientada-a-objetos"
 						target="_blank"
 					>
-						<div class="card">
+						<div class="cards">
 							<div class="card-image">
 								<img
 									src="./img/POO.png"
@@ -433,7 +438,7 @@
 						href="https://github.com/EzzCream/Prueba-tecnica"
 						target="_blank"
 					>
-						<div class="card">
+						<div class="cards">
 							<div class="card-image">
 								<img
 									src="./img/PT.png"
@@ -453,7 +458,7 @@
 				</section>
 			</section>
 			<section class="contactame" id="contactame">
-				<h2 class=""><b>CONTACTAME</b></h2>
+				<h2 class="display-4"><b>CONTACTAME</b></h2>
 				<section class="cont-form">
 					<div class="mb-3">
 						<label for="input1" class="form-label">Correo</label>
@@ -487,7 +492,7 @@
 				</section>
 			</section>
 		</main>
-		<footer>Designed by Oscar.</footer>
+		<footer>Designed by Oscar</footer>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

@@ -1,282 +1,357 @@
 .logo {
-	width: 150px;
-	margin: 0;
-	padding: 0;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.lk {
+  border-bottom: 2px solid transparent;
+  margin-right: 20px;
+}
+.lk b {
+  color: rgb(54, 54, 54);
+  padding-bottom: 7px;
+}
+.lk:hover {
+  border-bottom: 2px solid purple;
+  transform: scale(1.03);
+  transition: 0.1s;
+}
+
+header nav {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.616);
 }
 
 main p {
-	color: rgb(78, 78, 78);
+  color: rgb(90, 90, 90);
 }
-main h2 {
-	font-size: 2.5rem;
+main h1 {
+  font-size: 2.5rem;
 }
 main .portada {
-	color: white;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 700px;
-	justify-content: center;
-	text-align: center;
-	margin-bottom: 60px;
-	background-color: black;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('../img/setup2.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  height: 100vh;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/setup3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 main .portada h1 {
-	font-size: 4rem;
+  font-size: 4rem;
+}
+main .portada .sub {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 15ch;
+  animation: typing 2s steps(15), blink infinite 0.5s step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 main .about-me {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin-top: 50px;
-	padding: 0 40px 60px 40px;
-	text-align: justify;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
 }
 main .about-me .cont-about {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .about-me .cont-about .fotoPerfil {
+  border-bottom: 2px solid purple;
+  border-radius: 50%;
 }
 main .about-me .cont-about img {
-	width: 250px;
-	box-shadow: 0 0 10px 10px rgb(204, 204, 204);
-	border-radius: 50%;
+  width: 350px;
 }
 @media (max-width: 881px) {
-	main .about-me .cont-about img {
-		margin-top: 20px;
-	}
+  main .about-me .cont-about img {
+    width: 250px;
+    margin-top: 20px;
+  }
 }
 main .about-me .cont-about div {
-	margin-left: 50px;
-	max-width: 600px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  max-width: 700px;
+}
+main .about-me .cont-about div h2 {
+  text-align: left;
 }
 @media (max-width: 881px) {
-	main .about-me .cont-about div {
-		margin-left: 0;
-		margin-top: 20px;
-	}
+  main .about-me .cont-about div h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 881px) {
+  main .about-me .cont-about div {
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
 }
 main .about-me .cont-about div div {
-	display: flex;
-	flex-direction: row;
-	margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
 }
 main .about-me .cont-about div div a .links {
-	border-radius: 0;
-	width: 30px;
-	box-shadow: 0 0 0 0;
-	margin: 0 10px 20px 0;
+  border-radius: 0;
+  width: 30px;
+  box-shadow: 0 0 0 0;
+  margin: 0 10px 20px 0;
 }
 main .aptitudes {
-	padding-top: 60px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	flex-wrap: wrap;
-	text-align: center;
-	background-color: rgb(247, 247, 247);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: rgb(247, 247, 247);
 }
 main .aptitudes .tarjetas {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 main .aptitudes .tarjetas div {
-	padding: 20px;
-	margin: 40px;
-	width: 400px;
-	height: 400px;
-	background-color: white;
+  padding: 20px;
+  margin: 40px;
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 main .aptitudes .tarjetas div img {
-	width: 200px;
-	height: 200px;
+  width: 150px;
+  height: 150px;
 }
 main .estudios {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 60px;
-	flex-direction: row;
-	flex-wrap: wrap;
-	text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  flex-wrap: wrap;
+  text-align: center;
 }
 main .estudios .secciones {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 main .estudios .secciones .escuela {
-	padding: 20px;
-	margin: 40px;
-	width: 300px;
-	height: 400px;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
 }
 @media (max-width: 881px) {
-	main .estudios .secciones .escuela {
-		margin: 0;
-	}
+  main .estudios .secciones .escuela {
+    margin: 0;
+  }
 }
 main .estudios .secciones .escuela img {
-	width: 150px;
-	height: 150px;
+  width: 100px;
+  height: 100px;
 }
 main .estudios .secciones .escuela .coder {
-	border-radius: 50%;
+  border-radius: 50%;
+}
+main .estudios .secciones .escuela:hover {
+  box-shadow: 0 0 10px 10px rgb(247, 247, 247);
+  transition: 0.2s;
 }
 main .experiencia {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 60px;
-	flex-direction: column;
-	flex-wrap: wrap;
-	text-align: center;
-	background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 main .experiencia .cont {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 main .experiencia .cont .circle {
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin: 30px;
-	margin-bottom: 30px;
-	background: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  margin-bottom: 30px;
+  background: white;
 }
 main .portafolio {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
 }
 main .portafolio .cont-port {
-	width: 100%;
-	padding: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	flex-wrap: wrap;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 main .portafolio .cont-port a {
-	text-decoration: none;
+  text-decoration: none;
 }
-main .portafolio .cont-port a .card {
-	width: 250px;
-	height: 350px;
-	background: white;
-	padding: 0.4em;
-	margin: 30px;
-	border-radius: 6px;
+main .portafolio .cont-port a .cards {
+  width: 250px;
+  height: 350px;
+  background: rgb(247, 247, 247);
+  padding: 0.4em;
+  margin: 30px;
+  border-radius: 6px;
+  border: 1px solid transparent;
 }
-main .portafolio .cont-port a .card:hover {
-	transform: scale(1.03);
-	transition: 0.2s;
-	cursor: pointer;
+main .portafolio .cont-port a .cards:hover {
+  border: 1px solid purple;
+  transform: scale(1.03);
+  transition: 0.2s;
+  cursor: pointer;
 }
-main .portafolio .cont-port a .card .card-image {
-	background-color: rgb(236, 236, 236);
-	width: 100%;
-	height: 60%;
-	border-radius: 6px 6px 0 0;
+main .portafolio .cont-port a .cards .card-image {
+  width: 100%;
+  height: 60%;
+  border-radius: 6px 6px 0 0;
+  border: 0;
 }
-main .portafolio .cont-port a .card .card-image:hover {
-	cursor: pointer;
+main .portafolio .cont-port a .cards .card-image:hover {
+  cursor: pointer;
 }
-main .portafolio .cont-port a .card .card-image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+main .portafolio .cont-port a .cards .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-main .portafolio .cont-port a .card .category {
-	text-transform: uppercase;
-	font-size: 0.7em;
-	font-weight: 600;
-	color: rgb(63, 121, 230);
-	padding: 10px 7px 0;
+main .portafolio .cont-port a .cards .category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
 }
-main .portafolio .cont-port a .card .category:hover {
-	cursor: pointer;
+main .portafolio .cont-port a .cards .category:hover {
+  cursor: pointer;
 }
-main .portafolio .cont-port a .card .heading {
-	font-weight: 600;
-	color: rgb(88, 87, 87);
-	padding: 7px;
+main .portafolio .cont-port a .cards .heading {
+  font-weight: 600;
+  color: rgb(102, 102, 102);
+  padding: 7px;
 }
-main .portafolio .cont-port a .card .heading:hover {
-	cursor: pointer;
+main .portafolio .cont-port a .cards .heading:hover {
+  cursor: pointer;
 }
-main .portafolio .cont-port a .card .author {
-	color: gray;
-	font-weight: 400;
-	font-size: 11px;
-	padding-top: 20px;
+main .portafolio .cont-port a .cards .author {
+  color: rgb(141, 48, 136);
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
 }
-main .portafolio .cont-port a .card .name {
-	font-weight: 600;
+main .portafolio .cont-port a .cards .name {
+  font-weight: 600;
 }
-main .portafolio .cont-port a .card .name:hover {
-	cursor: pointer;
+main .portafolio .cont-port a .cards .name:hover {
+  cursor: pointer;
 }
 main .contactame {
-	color: white;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	padding: 60px;
-	background-color: black;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url('../img/footer.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+  background-color: rgb(189, 189, 189);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/footer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 main .cont-form {
-	display: flex;
-	flex-direction: column;
-	width: 70%;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
 }
 @media (max-width: 881px) {
-	main .cont-form {
-		width: 100%;
-	}
+  main .cont-form {
+    width: 100%;
+  }
+  main .cont-form *,
+  main .cont-form ::after,
+  main .cont-form ::before {
+    box-sizing: border-box;
+  }
 }
 main .cont-form a {
-	margin: auto;
-	width: 130px;
+  margin: auto;
+  width: 130px;
 }
 
 footer {
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
