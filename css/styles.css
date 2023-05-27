@@ -325,7 +325,7 @@ main .contactame {
 	padding: 60px;
 	background-color: rgb(189, 189, 189);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url('../img/footer.jpg');
+		url('../img/fBack.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
