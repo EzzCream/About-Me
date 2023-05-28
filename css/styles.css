@@ -357,7 +357,7 @@ footer {
 	align-items: center;
 }
 .article-wrapper {
-	max-width: 350px;
+	width: 300px;
 	margin: 30px;
 	-webkit-transition: 0.15s all ease-in-out;
 	transition: 0.15s all ease-in-out;
