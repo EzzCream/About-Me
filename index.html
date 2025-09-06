@@ -1,557 +1,859 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Desarrollador full stack Jr" />
+		<meta
+			name="description"
+			content="Oscar Antonio - Desarrollador Full Stack especializado en crear experiencias digitales premium"
+		/>
 		<meta
 			name="keywords"
-			content="Desarrollo web, FullStack, Frontend, Developer"
+			content="Desarrollador Full Stack, React, Node.js, JavaScript, TypeScript, UX/UI"
 		/>
-		<meta name="og:title" content="Full Stack Developer | EzzCream Oscar" />
-		<meta name="og:description" content="Desarrollador full stack Jr" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-			crossorigin="anonymous"
-		/>
+		<meta name="author" content="Oscar Antonio" />
 		<link rel="shortcut icon" href="./img/ECicon.png" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./css/styles.css" />
-		<title>Full Stack Developer | EzzCream Oscar</title>
+		<title>Oscar Antonio | Full Stack Developer</title>
 	</head>
 	<body>
-		<header>
-			<nav class="navbar fixed-top navbar-expand-lg">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#portada"
-						><img src="./img/EC.png" class="logo" alt="EzzCream"
-					/></a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNavAltMarkup"
-						aria-controls="navbarNavAltMarkup"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div
-						class="collapse navbar-collapse"
-						id="navbarNavAltMarkup"
-					>
-						<div class="navbar-nav">
-							<a class="nav-link active lk" href="#aboutme"
-								><b>Acerca de mi</b></a
-							>
-							<a class="nav-link active lk" href="#aptitudes"
-								><b>Aptitudes</b></a
-							>
-							<a class="nav-link active lk" href="#estudios"
-								><b>Estudios</b></a
-							>
-							<a class="nav-link active lk" href="#experiencia"
-								><b>Experiencia</b></a
-							>
-							<a class="nav-link active lk" href="#portafolio"
-								><b>Portafolio</b></a
-							>
-							<a class="nav-link active lk" href="#contactame"
-								><b>Contactame</b></a
-							>
-						</div>
-					</div>
+		<!-- Navigation -->
+		<nav class="navbar">
+			<div class="nav-container">
+				<a href="#home" class="nav-logo">
+					<img src="./img/EC.png" alt="Oscar Antonio Logo" />
+				</a>
+				<div class="nav-menu">
+					<a href="#about" class="nav-link">Sobre mí</a>
+					<a href="#skills" class="nav-link">Habilidades</a>
+					<a href="#education" class="nav-link">Educación</a>
+					<a href="#experience" class="nav-link">Experiencia</a>
+					<a href="#portfolio" class="nav-link">Portafolio</a>
+					<a href="#contact" class="nav-link">Contacto</a>
 				</div>
-			</nav>
-		</header>
-		<main>
-			<section class="portada" id="portada">
-				<h1 class="display-1"><b>Full Stack Developer</b></h1>
-				<h2><i>Hola, Soy</i></h2>
-				<h2 class="sub"><i>Oscar Antonio</i></h2>
-				<div>
-					<a
-						class="btn btn-light btn-lg mt-3 p-3"
-						href="./docs/Resume.pdf"
-						role="button"
-						download="Resume"
-						><b>DESCARGA CV</b></a
-					>
-					<a
-						class="btn btn-light btn-lg mt-3 p-3"
-						href="#aboutme"
-						role="button"
-						><b>EMPECEMOS!</b></a
-					>
+				<div class="nav-toggle" id="nav-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
-			</section>
-			<div id="aboutme"></div>
-			<section class="about-me">
-				<section class="cont-about">
-					<img
-						class="fotoPerfil"
-						src="./img/fotoPerfil2.png"
-						alt="Oscar Antonio"
-					/>
-					<div>
-						<h2 class="display-4"><b>ACERCA DE MI</b></h2>
-						<p class="mt-2">
-							Hola, me llamo Oscar y soy desarrollador full stack.
-							🥺
-							<br />
-							Me gusta mucho la tecnología y todo lo que engloba,
-							tengo conocimientos en el desarrollo web (MERN),
-							diseño y manejo de bases de datos, formulación y
-							administración de proyectos e ingeniería de
-							software.
-							<br />
-							Javascript y typescript son mis lenguajes de
-							programación favoritos. 💛💙
-							<br />
-							Soy una persona responsable, que siempre busca
-							aprender y tener el mejor desempeño posible, además
-							de ser una persona analítica y crítica.
-							<br />
-							Estudiante de Ciencias de la Informática.
-						</p>
-						<div>
-							<a
-								href="https://github.com/EzzCream"
-								target="_blank"
-								><img
-									class="links"
-									src="./img/github.png"
-									alt="github de Oscar - EzzCream"
-							/></a>
-							<a
-								href="https://www.instagram.com/rcoa._/"
-								target="_blank"
-								><img
-									class="links"
-									src="./img/instagram.png"
-									alt="instagram de Oscar - EzzCream"
-							/></a>
-							<a
-								href="https://www.linkedin.com/in/oscar-antonio-rodr%C3%ADguez-carmona-683a7821a/"
-								target="_blank"
-								><img
-									class="links"
-									src="./img/linkedin.png"
-									alt="linkedin de Oscar - EzzCream"
-							/></a>
-						</div>
-						<iframe
-							title="Cancion favorita"
-							style="border-radius: 12px"
-							src="https://open.spotify.com/embed/track/0O0kmHHBUG4YCqrKvMnmQy?utm_source=generator"
-							width="100%"
-							height="152"
-							frameborder="0"
-							allowfullscreen=""
-							allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-							loading="lazy"
-						></iframe>
-					</div>
-				</section>
-			</section>
-			<section class="aptitudes" id="aptitudes">
-				<h2 class="display-4"><b>APTITUDES</b></h2>
-				<section class="tarjetas">
-					<div>
-						<img src="./img/front.png" alt="frontend aptitudes" />
-						<h2 class="display-6">Front-end</h2>
-						<p>
-							Conocimientos en HTML, CSS y Javascript.
-							<br />
-							Desarrollo con libreria React JS
-							<br />
-							Diseño UX UI.
-							<br />
-							Uso de SASS y SEO.
-						</p>
-					</div>
-					<div>
-						<img src="./img/backend.png" alt="backend aptitudes" />
-						<h2 class="display-6">Back-end</h2>
-						<p>
-							Conocimientos en desarrollo de servidores y de API
-							REST FULL con lenguaje de programacion Javascript o
-							typescript. Patrones de diseño MVC, DAO y DTO
-						</p>
-					</div>
-					<div>
-						<img
-							src="./img/arquitectura.png"
-							alt="software aptitudes"
-						/>
-						<h2 class="display-6">Ingeniería de software</h2>
-						<p>
-							Creacion de proyectos, ingenieria de requerimientos,
-							uso de metodologias agiles, analisis y diseño de
-							sistemas
-						</p>
-					</div>
-					<div>
-						<img
-							src="./img/power-bi.png"
-							alt="power bi aptitudes"
-						/>
-						<h2 class="display-6">Data</h2>
-						<p>
-							Creacion, administracion y diseño de base de datos,
-							analisis de base de datos con PowerBi
-						</p>
-					</div>
-				</section>
-			</section>
-			<section class="estudios" id="estudios">
-				<h2 class="display-4"><b>ESTUDIOS</b></h2>
-				<section class="secciones">
-					<div class="escuela">
-						<img src="./img/IPN.jpg" alt="IPN CECyT7" />
-						<h2 class="display-6">CECyT 7 IPN</h2>
-						<p>
-							Tecnico en instalaciones y mantenimiento electrico
-						</p>
-					</div>
-					<div class="escuela">
-						<img src="./img/UPIICSA.jpg" alt="UPIICSA" />
-						<h2 class="display-6">UPIICSA IPN</h2>
-						<p>
-							Licenciatura en Ciencias de la Informática -
-							<small>En curso</small>
-						</p>
-					</div>
-					<div class="escuela">
-						<img
-							class="coder"
-							src="./img/coderhouse.jpg"
-							alt="Coderhouse"
-						/>
-						<h2 class="display-6">Coderhouse</h2>
-						<p>
-							Curso:
-							<!-- <a
-								href="https://coderhouse.com.mx/pages/certificados/63a701b3c5708d000e6de845"
-								target="_blank"
-								>Desarrollo web</a
-							> -->
-							Desarrollo web
-							<br />
-							Curso:
-							<!-- <a
-								href="https://coderhouse.com.mx/pages/certificados/630269b10b8bf304192ca591"
-								target="_blank"
-								>Programacion Backend</a
-							> -->
-							Programacion backend
-							<br />
-							Curso:
-							<!-- <a
-								href="https://coderhouse.com.mx/pages/certificados/62b808120cb56b0025e2b10c"
-								target="_blank"
-								>React JS</a
-							>
-							<br /> -->
-							React JS
-						</p>
-					</div>
-					<div class="escuela">
-						<img src="./img/ucamp.png" alt="Ucamp" />
-						<h2 class="display-6">UCamp</h2>
-						<p>Bootcamp Desarrollo Full Stack</p>
-						<div></div>
-					</div>
-				</section>
-			</section>
-			<section class="experiencia" id="experiencia">
-				<h2 class="display-4"><b>EXPERIENCIA</b></h2>
-				<section class="cont">
-					<div class="circle">
-						<h3 class="display-6">P. Personal</h3>
-						<p>
-							Desarrollo Front-end MichiStore.
-							<br />
-							Uso de React, Firebase y Heroku
-							<br />
-							Duracion de 3 meses
-						</p>
-					</div>
-					<div class="circle">
-						<h3 class="display-6">P. Personal</h3>
-						<p>
-							Desarrollo Backend.
-							<br />
-							Uso de express, ejs, MVC, DAO, DTO, heroku y graphQL
-							<br />
-							Duracion de 6 meses
-						</p>
-					</div>
-					<div class="circle">
-						<h3 class="display-6">P. Freelancer</h3>
-						<p>
-							Desarrollo Front-end.
-							<br />
-							Uso de HTML, CSS y Javascript
-							<br />
-							Duracion de 3 meses
-						</p>
-					</div>
-					<div class="circle">
-						<h3 class="display-6">Computer Science</h3>
-						<p>
-							Schneider Electrics
-							<br />
-							Uso de Spring y SQL
-							<br />
-							Duracion 3 meses
-						</p>
-					</div>
-				</section>
-			</section>
-			<section class="portafolio" id="portafolio">
-				<h2 class="display-4"><b>PORTAFOLIO</b></h2>
-				<h2 class="display-6"><b>TOP 3 ✨</b></h2>
-				<br />
-				<section class="top3">
-					<a href="https://github.com/EzzCream/MichiStore" target="_blank">
-						<article class="article-wrapper">
-							<div class="rounded-lg container-project">
-								<img
-									class="preview"
-									src="./img/PreviewMichi.gif"
-									alt=""
-								/>
-							</div>
-							<div class="project-info">
-								<div class="types">
-									<span
-										style="
-											background-color: rgba(
-												165,
-												96,
-												247,
-												0.43
-											);
-											color: rgb(85, 27, 177);
-										"
-										class="project-type"
-										>• React</span
-									>
-									<span class="project-type">• Firebase</span>
-								</div>
-							</div>
-						</article>
-					</a>
-					<a href="https://github.com/EzzCream/Back-End" target="_blank">
-						<article class="article-wrapper">
-							<div class="rounded-lg container-project">
-								<img
-									class="preview"
-									src="./img/BackendP.png"
-									alt=""
-								/>
-							</div>
-							<div class="project-info">
-								<div class="types">
-									<span
-										style="
-											background-color: rgba(
-												165,
-												96,
-												247,
-												0.43
-											);
-											color: rgb(85, 27, 177);
-										"
-										class="project-type"
-										>• Express</span
-									>
-									<span class="project-type">• NodeJS</span>
-								</div>
-							</div>
-					</a>
-					</article>
-					<a href="https://github.com/EzzCream/HotKey" target="_blank">
-						<article class="article-wrapper">
-							<div class="rounded-lg container-project">
-								<img class="preview" src="./img/video.gif" alt="" />
-							</div>
-							<div class="project-info">
-								<div class="types">
-									<span
-										style="
-											background-color: rgba(
-												165,
-												96,
-												247,
-												0.43
-											);
-											color: rgb(85, 27, 177);
-										"
-										class="project-type"
-										>• Express</span
-									>
-									<span class="project-type">• React</span>
-								</div>
-							</div>
-						</article>
-					</a>
-				</section>
+			</div>
+		</nav>
 
-				<br />
-				<h2 class="display-6"><b>OTROS ✨</b></h2>
-				<section class="cont-port">
-					<a
-						href="https://github.com/EzzCream/IS-Proyecto"
-						target="_blank"
-					>
-						<div class="cards">
-							<div class="card-image">
-								<img
-									src="./img/IS.png"
-									alt="ingenieria de software proyecto"
-								/>
-							</div>
-							<div class="category">Proyecto en Github</div>
-							<div class="heading">
-								Ingenieria de Software
-								<div class="author">
-									By
-									<span class="name">Oscar - EzzCream </span>
-								</div>
-							</div>
-						</div>
-					</a>
-					<a
-						href="https://github.com/EzzCream/Parque"
-						target="_blank"
-					>
-						<div class="cards">
-							<div class="card-image">
-								<img
-									src="./img/DBD.png"
-									alt="diseño de base de datos proyecto"
-								/>
-							</div>
-							<div class="category">Proyecto en Github</div>
-							<div class="heading">
-								Diseño de BD
-								<div class="author">
-									By
-									<span class="name">Oscar - EzzCream </span>
-								</div>
-							</div>
-						</div>
-					</a>
-					<a
-						href="https://github.com/EzzCream/Desafios-CoderHouse"
-						target="_blank"
-					>
-						<div class="cards">
-							<div class="card-image">
-								<img
-									src="./img/DCH.png"
-									alt="desafios coderhouse"
-								/>
-							</div>
-							<div class="category">Proyecto en Github</div>
-							<div class="heading">
-								Desafios coderhouse
-								<div class="author">
-									By
-									<span class="name">Oscar - EzzCream </span>
-								</div>
-							</div>
-						</div>
-					</a>
-					<a
-						href="https://github.com/EzzCream/Programacion-orientada-a-objetos"
-						target="_blank"
-					>
-						<div class="cards">
-							<div class="card-image">
-								<img
-									src="./img/POO.png"
-									alt="programacion orientada a objetos ejemplos"
-								/>
-							</div>
-							<div class="category">Proyecto en Github</div>
-							<div class="heading">
-								P. Orientada a Objetos
-								<div class="author">
-									By
-									<span class="name">Oscar - EzzCream </span>
-								</div>
-							</div>
-						</div>
-					</a>
-					<a
-						href="https://github.com/EzzCream/Prueba-tecnica"
-						target="_blank"
-					>
-						<div class="cards">
-							<div class="card-image">
-								<img
-									src="./img/PT.png"
-									alt="Prueba tecnica Javascript full stack"
-								/>
-							</div>
-							<div class="category">Proyecto en Github</div>
-							<div class="heading">
-								Prueba Tecnica
-								<div class="author">
-									By
-									<span class="name">Oscar - EzzCream </span>
-								</div>
-							</div>
-						</div>
-					</a>
-				</section>
-			</section>
-			<section class="contactame" id="contactame">
-				<h2 class="display-4"><b>CONTACTAME</b></h2>
-				<section class="cont-form">
-					<div class="mb-3">
-						<label for="input1" class="form-label">Correo</label>
-						<input
-							type="email"
-							class="form-control"
-							id="input1"
-							placeholder=""
-						/>
+		<!-- Hero Section -->
+		<section class="hero" id="home">
+			<!-- Animated particles background -->
+			<div class="hero-particles">
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+			</div>
+			<div class="hero-container">
+				<div class="hero-content">
+					<div class="hero-image">
+						<img src="./img/fotoPerfil2.jpg" alt="Oscar Antonio" />
 					</div>
-					<div class="mb-3">
-						<label for="input2" class="form-label">Nombre</label>
-						<input
-							type="text"
-							class="form-control"
-							id="input2"
-							placeholder=""
-						/>
+					<h1 class="hero-title">Oscar Antonio</h1>
+					<p class="hero-subtitle">Full Stack Developer</p>
+					<p class="hero-description">
+						Creando experiencias digitales sofisticadas con
+						tecnología de vanguardia
+					</p>
+					<div class="hero-buttons">
+						<a
+							href="./docs/Resume.pdf"
+							class="btn btn-primary"
+							download
+							>Descargar CV</a
+						>
+						<a href="#about" class="btn btn-secondary"
+							>Conocer más</a
+						>
 					</div>
-					<div class="mb-3">
-						<label for="form" class="form-label">Comentario</label>
-						<textarea
-							class="form-control"
-							id="form"
-							rows="3"
-						></textarea>
+					<div class="hero-social">
+						<a
+							href="https://github.com/EzzCream"
+							target="_blank"
+							class="social-link"
+						>
+							<img src="./img/github.png" alt="GitHub" />
+						</a>
+						<a
+							href="https://www.linkedin.com/in/oscar-antonio-rodr%C3%ADguez-carmona-683a7821a/"
+							target="_blank"
+							class="social-link"
+						>
+							<img src="./img/linkedin.png" alt="LinkedIn" />
+						</a>
+						<a
+							href="https://www.instagram.com/rcoa._/"
+							target="_blank"
+							class="social-link"
+						>
+							<img src="./img/instagram.png" alt="Instagram" />
+						</a>
 					</div>
-					<a class="btn btn-light btn-lg mt-3" href="" role="button"
-						>Enviar</a
+				</div>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section class="section about" id="about">
+			<div class="container">
+				<h2 class="section-title">Sobre mí</h2>
+				<div class="about-content">
+					<p class="about-text">
+						Soy un desarrollador Full Stack apasionado por crear
+						soluciones digitales elegantes y eficientes. Me
+						especializo en tecnologías modernas como React, Node.js,
+						y TypeScript, combinando funcionalidad técnica con
+						diseño intuitivo.
+					</p>
+					<p class="about-text">
+						Mi enfoque se centra en la calidad del código, la
+						experiencia del usuario y la innovación continua. Cada
+						proyecto es una oportunidad para superar expectativas y
+						crear algo extraordinario.
+					</p>
+					<p class="about-text">
+						Además del desarrollo de software, tengo experiencia
+						como emprendedor durante 1 año vendiendo pines metálicos
+						personalizados a través de
+						<a
+							href="https://www.instagram.com/meowpin._/"
+							target="_blank"
+							class="about-link"
+							>@meowpin._</a
+						>, donde desarrollé habilidades en gestión de negocio,
+						marketing digital y atención al cliente. También tengo
+						una faceta artística practicando tatuajes como hobby,
+						puedes ver mi trabajo en
+						<a
+							href="https://www.instagram.com/ezz.tattoo/"
+							target="_blank"
+							class="about-link"
+							>@ezz.tattoo</a
+						>, lo que me aporta creatividad y atención al detalle
+						que aplico en mis proyectos de desarrollo.
+					</p>
+
+					<!-- Canción favorita -->
+					<!-- <div class="about-music">
+						<h3>Mi canción favorita mientras programo:</h3>
+						<iframe
+							allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+							frameborder="0"
+							height="175"
+							style="
+								width: 100%;
+								max-width: 660px;
+								overflow: hidden;
+								border-radius: 10px;
+							"
+							sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+							src="https://embed.music.apple.com/mx/song/otros-lugares/1781966756"
+						></iframe>
+					</div> -->
+
+					<div class="about-stats">
+						<div class="stat">
+							<span class="stat-number">3+</span>
+							<span class="stat-label">Años de experiencia</span>
+						</div>
+						<div class="stat">
+							<span class="stat-number">15+</span>
+							<span class="stat-label"
+								>Proyectos completados</span
+							>
+						</div>
+						<div class="stat">
+							<span class="stat-number">100%</span>
+							<span class="stat-label"
+								>Satisfacción del cliente</span
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills Section -->
+		<section class="section skills" id="skills">
+			<div class="container">
+				<h2 class="section-title">Habilidades</h2>
+				<div class="skills-grid">
+					<div class="skill-card">
+						<div class="skill-icon">
+							<img src="./img/front.png" alt="Frontend" />
+						</div>
+						<h3 class="skill-title">Frontend Development</h3>
+						<p class="skill-description">
+							React, HTML5, CSS3, JavaScript ES6+, TypeScript,
+							Responsive Design
+						</p>
+						<div class="skill-tags">
+							<span class="tag">React</span>
+							<span class="tag">TypeScript</span>
+							<span class="tag">CSS3</span>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="skill-icon">
+							<img src="./img/backend.png" alt="Backend" />
+						</div>
+						<h3 class="skill-title">Backend Development</h3>
+						<p class="skill-description">
+							Node.js, Express, API REST, Bases de datos,
+							Arquitectura de software
+						</p>
+						<div class="skill-tags">
+							<span class="tag">Node.js</span>
+							<span class="tag">Express</span>
+							<span class="tag">MongoDB</span>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="skill-icon">
+							<img src="./img/arquitectura.png" alt="Software" />
+						</div>
+						<h3 class="skill-title">Software Engineering</h3>
+						<p class="skill-description">
+							Metodologías ágiles, Arquitectura de software,
+							Patrones de diseño
+						</p>
+						<div class="skill-tags">
+							<span class="tag">Scrum</span>
+							<span class="tag">Git</span>
+							<span class="tag">Docker</span>
+						</div>
+					</div>
+					<div class="skill-card">
+						<div class="skill-icon">
+							<img src="./img/power-bi.png" alt="Database" />
+						</div>
+						<h3 class="skill-title">Base de Datos</h3>
+						<p class="skill-description">
+							Diseño, implementación y gestión de bases de datos
+							relacionales y NoSQL
+						</p>
+						<div class="skill-tags">
+							<span class="tag">MongoDB</span>
+							<span class="tag">MySQL</span>
+							<span class="tag">SQL</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Education Section -->
+		<section class="section education" id="education">
+			<div class="container">
+				<h2 class="section-title">Educación</h2>
+				<div class="education-content">
+					<div class="education-group">
+						<h3 class="education-category">
+							Educación Universitaria
+						</h3>
+						<div class="education-grid">
+							<div class="education-card">
+								<div class="education-header">
+									<div class="education-icon">
+										<img
+											src="./img/UPIICSA.jpg"
+											alt="UPIICSA - IPN"
+										/>
+									</div>
+									<div class="education-meta">
+										<h4 class="education-degree">
+											Lic. Ciencias de la Informática
+										</h4>
+										<p class="education-institution">
+											UPIICSA - IPN
+										</p>
+										<div class="education-period">
+											<span class="period-badge"
+												>2020 - 2024</span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="education-card">
+								<div class="education-header">
+									<div class="education-icon">
+										<div class="institution-logo">UT</div>
+									</div>
+									<div class="education-meta">
+										<h4 class="education-degree">
+											Lic. Comunicación Digital
+										</h4>
+										<p class="education-institution">
+											UTEL
+										</p>
+										<div class="education-period">
+											<span class="period-badge current"
+												>2023 - 2026</span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="education-group">
+						<h3 class="education-category">Certificados</h3>
+						<div class="certificates-grid">
+							<div class="certificate-card">
+								<div class="certificate-header">
+									<div class="certificate-icon">
+										<img
+											src="./img/ucamp.png"
+											alt="Ucamp"
+										/>
+									</div>
+									<div class="certificate-meta">
+										<h4 class="certificate-name">
+											Bootcamp
+										</h4>
+										<p class="certificate-institution">
+											Ucamp
+										</p>
+										<div class="certificate-duration">
+											<span class="duration-badge"
+												>7 meses</span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="certificate-card">
+								<div class="certificate-header">
+									<div class="certificate-icon">
+										<img
+											src="./img/coderhouse.jpg"
+											alt="CoderHouse"
+										/>
+									</div>
+									<div class="certificate-meta">
+										<h4 class="certificate-name">
+											React JS
+										</h4>
+										<p class="certificate-institution">
+											CoderHouse
+										</p>
+										<div class="certificate-duration">
+											<span class="duration-badge"
+												>4 meses</span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="certificate-card">
+								<div class="certificate-header">
+									<div class="certificate-icon">
+										<img
+											src="./img/coderhouse.jpg"
+											alt="CoderHouse"
+										/>
+									</div>
+									<div class="certificate-meta">
+										<h4 class="certificate-name">
+											Backend
+										</h4>
+										<p class="certificate-institution">
+											CoderHouse
+										</p>
+										<div class="certificate-duration">
+											<span class="duration-badge"
+												>7 meses</span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="certificate-card">
+								<div class="certificate-header">
+									<div class="certificate-icon">
+										<img
+											src="./img/coderhouse.jpg"
+											alt="CoderHouse"
+										/>
+									</div>
+									<div class="certificate-meta">
+										<h4 class="certificate-name">
+											Desarrollo Web
+										</h4>
+										<p class="certificate-institution">
+											CoderHouse
+										</p>
+										<div class="certificate-duration">
+											<span class="duration-badge"
+												>4 meses</span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Experience Section -->
+		<section class="section experience" id="experience">
+			<div class="container">
+				<h2 class="section-title">Experiencia Profesional</h2>
+				<div class="experience-grid">
+					<div class="experience-card featured">
+						<div class="experience-header">
+							<div class="experience-icon">
+								<div class="company-logo">R</div>
+							</div>
+							<div class="experience-meta">
+								<h3 class="experience-company">Rommaana</h3>
+								<p class="experience-role">
+									Software Developer
+								</p>
+								<div class="experience-period">
+									<span class="period-badge current"
+										>Febrero 2025 - Actualidad</span
+									>
+								</div>
+							</div>
+						</div>
+						<div class="experience-content">
+							<p class="experience-description">
+								Desarrollo de aplicaciones web escalables con
+								Node.js y Express, creación de interfaces
+								responsivas con React.js, gestión optimizada de
+								bases de datos MySQL y MongoDB, e integración
+								con servicios externos y sistemas de pagos
+								automatizados.
+							</p>
+							<div class="experience-technologies">
+								<span class="tech-tag">Node.js</span>
+								<span class="tech-tag">React.js</span>
+								<span class="tech-tag">MySQL</span>
+								<span class="tech-tag">MongoDB</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="experience-card">
+						<div class="experience-header">
+							<div class="experience-icon">
+								<div class="company-logo">A</div>
+							</div>
+							<div class="experience-meta">
+								<h3 class="experience-company">Artifields</h3>
+								<p class="experience-role">
+									Full Stack Developer
+								</p>
+								<div class="experience-period">
+									<span class="period-badge">10 meses</span>
+								</div>
+							</div>
+						</div>
+						<div class="experience-content">
+							<p class="experience-description">
+								Desarrollo full stack con tecnologías modernas,
+								implementación de soluciones completas desde el
+								frontend hasta el backend, optimización de
+								rendimiento y experiencia de usuario.
+							</p>
+							<div class="experience-technologies">
+								<span class="tech-tag">Full Stack</span>
+								<span class="tech-tag">JavaScript</span>
+								<span class="tech-tag">API REST</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="experience-card">
+						<div class="experience-header">
+							<div class="experience-icon">
+								<div class="company-logo">M</div>
+							</div>
+							<div class="experience-meta">
+								<h3 class="experience-company">MONIFIC</h3>
+								<p class="experience-role">
+									Front-end Developer
+								</p>
+								<div class="experience-period">
+									<span class="period-badge">4 Meses</span>
+								</div>
+							</div>
+						</div>
+						<div class="experience-content">
+							<p class="experience-description">
+								Desarrollo de aplicaciones web con Angular y
+								Nest.js, implementación de funcionalidades clave
+								y APIs escalables, y documentación de políticas
+								de seguridad para asegurar el cumplimiento
+								normativo.
+							</p>
+							<div class="experience-technologies">
+								<span class="tech-tag">Angular</span>
+								<span class="tech-tag">Nest.js</span>
+								<span class="tech-tag">APIs</span>
+								<span class="tech-tag">Seguridad</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="experience-card">
+						<div class="experience-header">
+							<div class="experience-icon">
+								<div class="company-logo">SE</div>
+							</div>
+							<div class="experience-meta">
+								<h3 class="experience-company">
+									Schneider Electric
+								</h3>
+								<p class="experience-role">
+									Computer Science Intern
+								</p>
+								<div class="experience-period">
+									<span class="period-badge">3 meses</span>
+								</div>
+							</div>
+						</div>
+						<div class="experience-content">
+							<p class="experience-description">
+								Desarrollo con Spring Framework y SQL,
+								implementación de soluciones empresariales
+								robustas y optimización de procesos internos.
+							</p>
+							<div class="experience-technologies">
+								<span class="tech-tag">Spring Framework</span>
+								<span class="tech-tag">SQL</span>
+								<span class="tech-tag">Java</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="experience-card">
+						<div class="experience-header">
+							<div class="experience-icon">
+								<div class="company-logo">FL</div>
+							</div>
+							<div class="experience-meta">
+								<h3 class="experience-company">Freelancer</h3>
+								<p class="experience-role">
+									Frontend Developer
+								</p>
+								<div class="experience-period">
+									<span class="period-badge">3 meses</span>
+								</div>
+							</div>
+						</div>
+						<div class="experience-content">
+							<p class="experience-description">
+								Desarrollo de interfaces web modernas con HTML5,
+								CSS3 y JavaScript ES6+ para diversos clientes,
+								enfocado en diseño responsive y UX optimizada.
+							</p>
+							<div class="experience-technologies">
+								<span class="tech-tag">HTML5</span>
+								<span class="tech-tag">CSS3</span>
+								<span class="tech-tag">JavaScript</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Portfolio Section -->
+		<section class="section portfolio" id="portfolio">
+			<div class="container">
+				<h2 class="section-title">Portafolio</h2>
+				<div class="portfolio-grid">
+					<div class="portfolio-item">
+						<div class="portfolio-image">
+							<img
+								src="./img/PreviewMichi.gif"
+								alt="MichiStore"
+							/>
+						</div>
+						<div class="portfolio-content">
+							<h3 class="portfolio-title">MichiStore</h3>
+							<p class="portfolio-description">
+								E-commerce moderno con React y Firebase
+							</p>
+							<div class="portfolio-tags">
+								<span class="tag">React</span>
+								<span class="tag">Firebase</span>
+							</div>
+							<a
+								href="https://github.com/EzzCream/MichiStore"
+								target="_blank"
+								class="portfolio-link"
+							>
+								Ver proyecto
+							</a>
+						</div>
+					</div>
+					<div class="portfolio-item">
+						<div class="portfolio-image">
+							<img
+								src="./img/BackendP.png"
+								alt="Backend Project"
+							/>
+						</div>
+						<div class="portfolio-content">
+							<h3 class="portfolio-title">Backend API</h3>
+							<p class="portfolio-description">
+								API REST completa con Express y GraphQL
+							</p>
+							<div class="portfolio-tags">
+								<span class="tag">Node.js</span>
+								<span class="tag">GraphQL</span>
+							</div>
+							<a
+								href="https://github.com/EzzCream/Back-End"
+								target="_blank"
+								class="portfolio-link"
+							>
+								Ver proyecto
+							</a>
+						</div>
+					</div>
+					<div class="portfolio-item">
+						<div class="portfolio-image">
+							<img src="./img/video.gif" alt="HotKey" />
+						</div>
+						<div class="portfolio-content">
+							<h3 class="portfolio-title">HotKey</h3>
+							<p class="portfolio-description">
+								Aplicación full-stack con React y Express
+							</p>
+							<div class="portfolio-tags">
+								<span class="tag">React</span>
+								<span class="tag">Express</span>
+							</div>
+							<a
+								href="https://github.com/EzzCream/HotKey"
+								target="_blank"
+								class="portfolio-link"
+							>
+								Ver proyecto
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section class="section contact" id="contact">
+			<div class="container">
+				<h2 class="section-title">Contacto</h2>
+				<div class="contact-content">
+					<div class="contact-info">
+						<h3>¿Listo para crear algo increíble?</h3>
+						<p>
+							Estoy disponible para nuevos proyectos y
+							colaboraciones. ¡Hablemos!
+						</p>
+						<div class="contact-details">
+							<div class="contact-item">
+								<span class="contact-label">Email:</span>
+								<a
+									href="mailto:oscar.7n7@gmail.com"
+									class="contact-value contact-link"
+								>
+									oscar.7n7@gmail.com
+								</a>
+							</div>
+							<div class="contact-item">
+								<span class="contact-label">WhatsApp:</span>
+								<a
+									href="https://wa.me/525530234861"
+									target="_blank"
+									class="contact-value contact-link"
+								>
+									+52 55 3023 4861
+								</a>
+							</div>
+							<div class="contact-item">
+								<span class="contact-label">Ubicación:</span>
+								<span class="contact-value">
+									Ciudad de México, México
+								</span>
+							</div>
+						</div>
+						<div class="contact-buttons">
+							<a
+								href="mailto:oscar.7n7@gmail.com"
+								class="btn btn-primary contact-btn"
+							>
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Enviar Email
+							</a>
+							<a
+								href="https://wa.me/525530234861?text=Hola%20Oscar,%20me%20interesa%20trabajar%20contigo"
+								target="_blank"
+								class="btn btn-secondary contact-btn"
+							>
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M20.52 3.48A11.905 11.905 0 0012 0C5.37 0 0 5.37 0 12a11.86 11.86 0 001.592 5.98L0 24l6.192-1.624A11.864 11.864 0 0012 24c6.63 0 12-5.37 12-12 0-3.204-1.248-6.216-3.48-8.52zM12 21.6a9.6 9.6 0 01-4.908-1.344l-.348-.204-3.636.96.972-3.54-.228-.36A9.577 9.577 0 012.4 12c0-5.292 4.308-9.6 9.6-9.6s9.6 4.308 9.6 9.6-4.308 9.6-9.6 9.6z"
+										fill="currentColor"
+									/>
+									<path
+										d="M18.708 14.658c-.288-.144-1.704-.84-1.968-0.936-.264-.096-.456-.144-.648.144-.192.288-.744.936-.912 1.128-.168.192-.336.216-.624.072-.288-.144-1.212-.444-2.304-1.416-.852-.756-1.428-1.692-1.596-1.98-.168-.288-.018-.444.126-.588.132-.132.288-.348.432-.516.144-.168.192-.288.288-.48.096-.192.048-.36-.024-.504-.072-.144-.648-1.56-.888-2.136-.24-.576-.48-.48-.648-.48h-.552c-.192 0-.504.072-.768.36-.264.288-1.008.984-1.008 2.4s1.032 2.784 1.176 2.976c.144.192 2.04 3.096 4.92 4.356 2.88 1.26 2.88.84 3.396.792.516-.048 1.704-.696 1.944-1.368.24-.672.24-1.248.168-1.368-.072-.12-.264-.192-.552-.336z"
+										fill="currentColor"
+									/>
+								</svg>
+								WhatsApp
+							</a>
+						</div>
+					</div>
+					<div class="contact-form-wrapper">
+						<h3>O escribe tu mensaje aquí</h3>
+						<p class="form-subtitle">
+							Completa el formulario y te responderé lo antes
+							posible
+						</p>
+						<form
+							class="contact-form"
+							action="mailto:oscar.7n7@gmail.com"
+							method="post"
+							enctype="text/plain"
+						>
+							<div class="form-group">
+								<input
+									type="text"
+									name="nombre"
+									placeholder="Tu nombre"
+									required
+								/>
+							</div>
+							<div class="form-group">
+								<input
+									type="email"
+									name="email"
+									placeholder="Tu email"
+									required
+								/>
+							</div>
+							<div class="form-group">
+								<textarea
+									name="mensaje"
+									placeholder="Tu mensaje"
+									rows="5"
+									required
+								></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">
+								Enviar mensaje
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<p>&copy; 2025 Oscar Antonio. Todos los derechos reservados.</p>
+				<div class="footer-social">
+					<a
+						href="https://github.com/EzzCream"
+						target="_blank"
+						class="social-link"
 					>
-				</section>
-			</section>
-		</main>
-		<footer>Designed by Oscar</footer>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-			crossorigin="anonymous"
-		></script>
+						<img src="./img/github.png" alt="GitHub" />
+					</a>
+					<a
+						href="https://www.linkedin.com/in/oscar-antonio-rodr%C3%ADguez-carmona-683a7821a/"
+						target="_blank"
+						class="social-link"
+					>
+						<img src="./img/linkedin.png" alt="LinkedIn" />
+					</a>
+					<a
+						href="https://www.instagram.com/rcoa._/"
+						target="_blank"
+						class="social-link"
+					>
+						<img src="./img/instagram.png" alt="Instagram" />
+					</a>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			// Smooth scrolling for navigation links
+			document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+				anchor.addEventListener('click', function (e) {
+					e.preventDefault();
+					document
+						.querySelector(this.getAttribute('href'))
+						.scrollIntoView({
+							behavior: 'smooth',
+						});
+				});
+			});
+
+			// Mobile menu toggle
+			const navToggle = document.getElementById('nav-toggle');
+			const navMenu = document.querySelector('.nav-menu');
+
+			navToggle.addEventListener('click', () => {
+				navMenu.classList.toggle('active');
+			});
+
+			// Close mobile menu when clicking on a link
+			document.querySelectorAll('.nav-link').forEach((link) => {
+				link.addEventListener('click', () => {
+					navMenu.classList.remove('active');
+				});
+			});
+
+			// Navbar scroll effect
+			window.addEventListener('scroll', () => {
+				const navbar = document.querySelector('.navbar');
+				if (window.scrollY > 50) {
+					navbar.classList.add('scrolled');
+				} else {
+					navbar.classList.remove('scrolled');
+				}
+			});
+		</script>
 	</body>
 </html>
